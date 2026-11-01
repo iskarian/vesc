@@ -16,6 +16,8 @@
   <author email="hxue@ucsd.edu">Haoru Xue</author>
 
   <buildtool_depend>ament_cmake_auto</buildtool_depend>
+  <!-- TODO: Remove asio_cmake_module when upstream is fixed: https://githut.app/f1tenth/vesc/pull/45 -->
+  <buildtool_depend>asio_cmake_module</buildtool_depend>
 
   <depend>rclcpp</depend>
   <depend>rclcpp_components</depend>
